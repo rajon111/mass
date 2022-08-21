@@ -1,0 +1,15 @@
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+
+.banner-div{
+    background-color: #E0DFDF;
+
+
+}
+
+.banner-text{
+    margin-top: 40%;
+}
