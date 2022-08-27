@@ -1,0 +1,32 @@
+.service-top{
+    margin-top: 150px;
+}
+
+.card-main{
+    
+    padding: 3rem;
+   
+    margin: 3rem 0 0;
+
+    border-radius: 8px;
+    background-clip: padding-box;
+    border: 1px solid #e6ebed;
+    box-shadow: 2px 2px 8px -1px rgb(0 0 0 / 20%);
+}
+
+.solution-sec{
+    background: #F85D43;
+    position: relative;
+}
+
+.read-more-cont {
+    width: 100%;
+    padding: 15px 0 0px;
+    padding: 1.5rem 0 0px;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}

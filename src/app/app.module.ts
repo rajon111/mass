@@ -27,6 +27,7 @@ import { SoftSolutionForIndustryComponent } from './pages/Solutions/soft-solutio
 import { SupplyChainManSystemComponent } from './pages/Solutions/supply-chain-man-system/supply-chain-man-system.component';
 import { CustomEcomWebsiteComponent } from './pages/Solutions/custom-ecom-website/custom-ecom-website.component';
 import { SeoComponent } from './pages/Service/seo/seo.component';
+import { ServiceComponent } from './pages/Solutions/service/service.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { SeoComponent } from './pages/Service/seo/seo.component';
     SoftSolutionForIndustryComponent,
     SupplyChainManSystemComponent,
     CustomEcomWebsiteComponent,
-    SeoComponent
+    SeoComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,

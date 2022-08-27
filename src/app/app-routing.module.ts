@@ -16,6 +16,7 @@ import { SoftSolutionForIndustryComponent } from './pages/Solutions/soft-solutio
 import { SupplyChainManSystemComponent } from './pages/Solutions/supply-chain-man-system/supply-chain-man-system.component';
 import { CustomEcomWebsiteComponent } from './pages/Solutions/custom-ecom-website/custom-ecom-website.component';
 import { SeoComponent } from './pages/Service/seo/seo.component';
+import { ServiceComponent } from './pages/Solutions/service/service.component';
 
 const routes: Routes = [
   {path:"", component:HomeMainComponent},
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path:"supply-chain-management-system", component:SupplyChainManSystemComponent},
   {path:"custom-ecommerce-website", component:CustomEcomWebsiteComponent},
   {path:"seo-service-provider-in-bd", component:SeoComponent},
+  {path:"services-for-industry", component:ServiceComponent},
 ];
 
 @NgModule({
