@@ -1,0 +1,9 @@
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 500px; */
+}
+.top{
+    margin-top: 150px;
+}

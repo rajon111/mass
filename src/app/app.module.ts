@@ -28,6 +28,14 @@ import { SupplyChainManSystemComponent } from './pages/Solutions/supply-chain-ma
 import { CustomEcomWebsiteComponent } from './pages/Solutions/custom-ecom-website/custom-ecom-website.component';
 import { SeoComponent } from './pages/Service/seo/seo.component';
 import { ServiceComponent } from './pages/Solutions/service/service.component';
+import { UsaResellerHstingComponent } from './pages/Service/usa-reseller-hsting/usa-reseller-hsting.component';
+import { DomainProviderInBdComponent } from './pages/Service/domain-provider-in-bd/domain-provider-in-bd.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { MaskingSmsBdComponent } from './pages/Service/SMS/masking-sms-bd/masking-sms-bd.component';
+import { NonMaskingSmsComponent } from './pages/Service/SMS/non-masking-sms/non-masking-sms.component';
+import { OtpComponent } from './pages/Service/SMS/otp/otp.component';
+import { PromotionalSmsComponent } from './pages/Service/SMS/promotional-sms/promotional-sms.component';
+import { SmppSolutionsComponent } from './pages/Service/SMS/smpp-solutions/smpp-solutions.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +59,15 @@ import { ServiceComponent } from './pages/Solutions/service/service.component';
     SupplyChainManSystemComponent,
     CustomEcomWebsiteComponent,
     SeoComponent,
-    ServiceComponent
+    ServiceComponent,
+    UsaResellerHstingComponent,
+    DomainProviderInBdComponent,
+    ContactUsComponent,
+    MaskingSmsBdComponent,
+    NonMaskingSmsComponent,
+    OtpComponent,
+    PromotionalSmsComponent,
+    SmppSolutionsComponent
   ],
   imports: [
     BrowserModule,

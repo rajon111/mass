@@ -17,6 +17,14 @@ import { SupplyChainManSystemComponent } from './pages/Solutions/supply-chain-ma
 import { CustomEcomWebsiteComponent } from './pages/Solutions/custom-ecom-website/custom-ecom-website.component';
 import { SeoComponent } from './pages/Service/seo/seo.component';
 import { ServiceComponent } from './pages/Solutions/service/service.component';
+import { UsaResellerHstingComponent } from './pages/Service/usa-reseller-hsting/usa-reseller-hsting.component';
+import { DomainProviderInBdComponent } from './pages/Service/domain-provider-in-bd/domain-provider-in-bd.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { MaskingSmsBdComponent } from './pages/Service/SMS/masking-sms-bd/masking-sms-bd.component';
+import { NonMaskingSmsComponent } from './pages/Service/SMS/non-masking-sms/non-masking-sms.component';
+import { OtpComponent } from './pages/Service/SMS/otp/otp.component';
+import { PromotionalSmsComponent } from './pages/Service/SMS/promotional-sms/promotional-sms.component';
+import { SmppSolutionsComponent } from './pages/Service/SMS/smpp-solutions/smpp-solutions.component';
 
 const routes: Routes = [
   {path:"", component:HomeMainComponent},
@@ -34,6 +42,15 @@ const routes: Routes = [
   {path:"custom-ecommerce-website", component:CustomEcomWebsiteComponent},
   {path:"seo-service-provider-in-bd", component:SeoComponent},
   {path:"services-for-industry", component:ServiceComponent},
+  {path:"usa-reseller-hosting-in-bd", component:UsaResellerHstingComponent},
+  {path:"domain-provider-in-bd", component:DomainProviderInBdComponent},
+  {path:"contact-us", component:ContactUsComponent},
+  {path:"masking-sms-in-bd", component:MaskingSmsBdComponent},
+  {path:"non-masking-sms-in-bd", component:NonMaskingSmsComponent},
+  {path:"otp-provider-in-bd", component:OtpComponent},
+  {path:"promotional-sms-in-bd", component:PromotionalSmsComponent},
+  {path:"smpp-gateway-provider-in-bd", component:SmppSolutionsComponent},
+  
 ];
 
 @NgModule({

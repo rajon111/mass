@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeSectionOneComponent } from './home-section-one.component';
+import { SmppSolutionsComponent } from './smpp-solutions.component';
 
-describe('HomeSectionOneComponent', () => {
-  let component: HomeSectionOneComponent;
-  let fixture: ComponentFixture<HomeSectionOneComponent>;
+describe('SmppSolutionsComponent', () => {
+  let component: SmppSolutionsComponent;
+  let fixture: ComponentFixture<SmppSolutionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeSectionOneComponent ]
+      declarations: [ SmppSolutionsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HomeSectionOneComponent);
+    fixture = TestBed.createComponent(SmppSolutionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

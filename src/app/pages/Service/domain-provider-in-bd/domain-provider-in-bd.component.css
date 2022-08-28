@@ -1,0 +1,188 @@
+ .domain-top{
+    margin-top: 150px !important;
+}
+
+.banner-top {
+    background-image: url('https://massdataltd.com/wp-content/uploads/2021/07/MDL-teachnology.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 300px;
+    min-height: 100%;
+    padding: 100px; */
+} 
+
+.swiper-slide {
+    will-change: transform;
+    border-style: solid;
+    border-width: 0;
+ 
+    overflow: hidden;
+    height: 400px !important;
+    transition-duration: calc(5000ms*1.2);
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.main-section {
+    background-color: #F7F7F7;
+}
+
+.reseller-btn {
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 14px 32px;
+    border-width: 2px;
+    border-radius: 16px;
+    border-color: #fff;
+    background: transparent;
+
+}
+
+.signup-btn {
+    font-size: 14px;
+    color: #55595c;
+    border-color: #55595c;
+    padding: 14px 32px;
+    border-radius: 24px;
+
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-div .btnn {
+    background-color: #5E821B;
+    color: #fff;
+
+    padding: 10px 32px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/* .tab-div{
+    padding: 10px;
+} */
+.ta-div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card-div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+span {
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.link-tag{
+    text-decoration: none;
+    color: #bcba63;
+}
+/* table */
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+
+@media 
+only screen and (max-width: 440px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	/* td:nth-of-type(1):before { content: "First Name"; } */
+	/*
+	Label the data
+	*/
+	/* td:nth-of-type(1):before { content: "First Name"; }
+	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(3):before { content: "Job Title"; }
+	td:nth-of-type(4):before { content: "Favorite Color"; }
+	td:nth-of-type(5):before { content: "Wars of Trek?"; }
+	td:nth-of-type(6):before { content: "Secret Alias"; }
+	td:nth-of-type(7):before { content: "Date of Birth"; }
+	td:nth-of-type(8):before { content: "Dream Vacation City"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+	td:nth-of-type(10):before { content: "Arbitrary Data"; } */
+}
+/* table */
+
+@media only screen and (max-width: 768px) {
+    .card-div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        padding: 0 0 5px;
+    }
+    .custom{
+        display: block !important;
+        text-align: center;
+    }.reseller-btn{
+        padding: 10px 15px ;
+        font-size: 12px;
+    }
+    .signup-btn{
+        padding: 10px 15px ;
+        font-size: 12px; 
+    }
+}
