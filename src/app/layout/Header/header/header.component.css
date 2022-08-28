@@ -8,7 +8,7 @@
     right: 0;
     background: #ffffff;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    padding: 20px 7%;
+    padding: 1px 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,8 +41,8 @@
 
 .navbar ul li ul{
     position: absolute;
-    left: 0;
-    width: 200px;
+    left: -300px;
+    width: 400px;
     background: #fff;
     display: none;
 }
@@ -52,7 +52,7 @@
 }
 
 .navbar ul li ul li ul{
-    left: 150px;
+    left: 350px;
     top: 0;
 }
 
@@ -89,6 +89,13 @@ label{
         border-top: 1px solid rgba(0,0,0,.1);
         display: none;
     }
+    .navbar ul li ul{
+        position: absolute;
+        left: 0px;
+        width: 400px;
+        background: #fff;
+        display: none;
+    }
 
     .navbar ul li{
         width: 100%;
@@ -102,7 +109,7 @@ label{
     }
     .navbar ul li ul li ul{
         width: 100%;
-        left: 0;
+        left: 0px;
     }
 
     #menu-bar:checked ~ .navbar{

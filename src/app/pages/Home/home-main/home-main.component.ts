@@ -26,7 +26,7 @@ export class HomeMainComponent implements OnInit {
         value: "#"
       }
     },
-    fpsLimit: 120,
+    fpsLimit: 60,
     interactivity: {
       events: {
         onClick: {
@@ -44,8 +44,8 @@ export class HomeMainComponent implements OnInit {
           quantity: 4
         },
         repulse: {
-          distance: 300,
-          duration: 0.4
+          distance: 180,
+          duration: 0.5
         }
       }
     },
@@ -69,6 +69,7 @@ export class HomeMainComponent implements OnInit {
         outModes: {
           default: OutMode.bounce
         },
+        // speed
         random: false,
         speed: 3,
         straight: false
@@ -90,7 +91,7 @@ export class HomeMainComponent implements OnInit {
         value: {min: 1, max: 5 },
       }
     },
-    detectRetina: true
+    // detectRetina: true
   };
 
   particlesLoaded(container: Container): void {
