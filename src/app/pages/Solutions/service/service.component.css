@@ -30,3 +30,17 @@
 .zoom:hover{
     transform: scale(1.1);
 }
+
+.read-more-cont {
+    width: 100%;
+    padding: 15px 0 0px;
+    padding: 1.5rem 0 0px;
+}
+.read-more-cont a.read-more-anchor {
+  
+    font-size: 1.1rem;
+   
+    line-height: 1.8rem;
+    color: #22a9e2;
+    text-decoration: none;
+}

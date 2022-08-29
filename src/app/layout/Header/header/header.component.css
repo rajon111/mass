@@ -6,13 +6,18 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
+}
+.ttt{
+    
     background: #ffffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    padding: 1px 2%;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 1px 5%; */
+    padding: 1px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    
 }
 .logo{
     font-weight: bolder;
@@ -29,7 +34,7 @@
 }
 .navbar ul li a{
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     color: #333;
     display: block;
 }
@@ -74,9 +79,9 @@ label{
 
 
 @media(max-width:991px){
-    .header{
+    /* .header{
         padding: 20px;
-    }
+    } */
     label{
         display: initial;
     }
@@ -116,3 +121,11 @@ label{
         display: initial;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    /* For mobile phones: */
+    .logo img{
+        width: 150px;
+        height: 20px;
+    }
+  }

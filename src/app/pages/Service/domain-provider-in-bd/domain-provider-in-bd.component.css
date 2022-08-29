@@ -4,14 +4,14 @@
 
 .banner-top {
     background-image: url('https://massdataltd.com/wp-content/uploads/2021/07/MDL-teachnology.jpg');
-    /* background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
     min-width: 100%;
     height: 300px;
     min-height: 100%;
-    padding: 100px; */
+    padding: 100px;
 } 
 
 .swiper-slide {

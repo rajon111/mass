@@ -41,7 +41,7 @@ const routes: Routes = [
   {path:"supply-chain-management-system", component:SupplyChainManSystemComponent},
   {path:"custom-ecommerce-website", component:CustomEcomWebsiteComponent},
   {path:"seo-service-provider-in-bd", component:SeoComponent},
-  {path:"services-for-industry", component:ServiceComponent},
+  {path:"e-commerce-solution-provider", component:ServiceComponent},
   {path:"usa-reseller-hosting-in-bd", component:UsaResellerHstingComponent},
   {path:"domain-provider-in-bd", component:DomainProviderInBdComponent},
   {path:"contact-us", component:ContactUsComponent},
