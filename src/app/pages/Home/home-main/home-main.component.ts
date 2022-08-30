@@ -51,10 +51,10 @@ export class HomeMainComponent implements OnInit {
     },
     particles: {
       color: {
-        value: "#ffffff"
+        value: "#00EDB2"
       },
       links: {
-        color: "#ffffff",
+        color: "#00EDB2",
         distance: 10,
         enable: true,
         opacity: 0.5,
