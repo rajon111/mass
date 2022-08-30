@@ -28,11 +28,19 @@
   .footer-dark ul a:hover {
     opacity:0.8;
   }
+  .payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   @media (max-width:767px) {
     .footer-dark .item:not(.social) {
       text-align:center;
       padding-bottom:20px;
+    }
+    .payment{
+      flex-wrap: wrap;
     }
   }
   
