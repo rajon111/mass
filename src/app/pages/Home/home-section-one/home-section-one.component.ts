@@ -13,26 +13,31 @@ export class HomeSectionOneComponent implements OnInit {
   ngOnInit(): void {
   }
   imageObject = [{
-    image: 'https://massdataltd.com/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-14-at-2.58.08-PM.jpeg',
-    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-14-at-2.58.08-PM.jpeg',
+    image: '../../../../assets/clients/106504737_581442352540048_2298773867032566013_n.jpg',
+    thumbImage: '../../../../assets/clients/106504737_581442352540048_2298773867032566013_n.jpg',
     title: 'Hummingbirds are amazing creatures'
 }, {
-    image: 'https://massdataltd.com/wp-content/uploads/2021/07/CIGL-Canada.jpg',
-    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/CIGL-Canada.jpg'
+    image: '../../../../assets/clients/download.jpg',
+    thumbImage: '../../../../assets/clients/download.jpg',
+    title: 'Hummingbirds are amazing creatures'
+    
 }, {
-    image: 'https://massdataltd.com/wp-content/uploads/2021/07/Deboniar-Group.jpg',
-    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/Deboniar-Group.jpg',
-    title: 'Example with title.'
+    image: '../../../../assets/clients/download.png',
+    thumbImage: '../../../../assets/clients/download.png'
+    
 },{
-    image: 'https://massdataltd.com/wp-content/uploads/2021/07/Express-Associate.jpg',
-    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/Express-Associate.jpg',
-    title: 'Hummingbirds are amazing creatures'
+    image: '../../../../assets/clients/png-clipart-jahangirnagar-university-school-college-dhaka-others-text-logo.png',
+    thumbImage: '../../../../assets/clients/png-clipart-jahangirnagar-university-school-college-dhaka-others-text-logo.png',
+    title: 'Example with title.'
+    
+    
 }, {
-    image: 'https://massdataltd.com/wp-content/uploads/2021/07/ju_logo.jpg',
-    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/ju_logo.jpg'
-}, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    title: 'Example two with title.'
-}];
+    image: '../../../../assets/clients/Asian-Power-Generation-Logo.jpg',
+    thumbImage: '../../../../assets/clients/Asian-Power-Generation-Logo.jpg'
+    
+},{
+    image: '../../../../assets/clients/cropped-silme-logo-153x40.png',
+    thumbImage: '../../../../assets/clients/cropped-silme-logo-153x40.png',
+    title: 'Example with title.'
+} ];
 }
