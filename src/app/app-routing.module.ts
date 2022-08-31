@@ -26,6 +26,7 @@ import { OtpComponent } from './pages/Service/SMS/otp/otp.component';
 import { PromotionalSmsComponent } from './pages/Service/SMS/promotional-sms/promotional-sms.component';
 import { SmppSolutionsComponent } from './pages/Service/SMS/smpp-solutions/smpp-solutions.component';
 
+
 const routes: Routes = [
   {path:"", component:HomeMainComponent},
   {path:"about-us", component:AboutMassDataComponent},
@@ -50,11 +51,14 @@ const routes: Routes = [
   {path:"otp-provider-in-bd", component:OtpComponent},
   {path:"promotional-sms-in-bd", component:PromotionalSmsComponent},
   {path:"smpp-gateway-provider-in-bd", component:SmppSolutionsComponent},
+ 
   
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes),
+    
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

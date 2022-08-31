@@ -36,6 +36,7 @@ import { NonMaskingSmsComponent } from './pages/Service/SMS/non-masking-sms/non-
 import { OtpComponent } from './pages/Service/SMS/otp/otp.component';
 import { PromotionalSmsComponent } from './pages/Service/SMS/promotional-sms/promotional-sms.component';
 import { SmppSolutionsComponent } from './pages/Service/SMS/smpp-solutions/smpp-solutions.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { SmppSolutionsComponent } from './pages/Service/SMS/smpp-solutions/smpp-
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    NgParticlesModule 
+    NgParticlesModule ,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

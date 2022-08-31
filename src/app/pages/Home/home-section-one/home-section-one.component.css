@@ -39,6 +39,10 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.services-next {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 @media only screen and (max-width: 1400px){
     .box-width{
@@ -90,7 +94,10 @@
     .box-width{
         width: 18rem !important;
     }
-   
+    .services-next {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 /* .di-check{
@@ -131,6 +138,12 @@
     }
     .tx{
         text-align: center;
+    }
+    .services-next {
+        display: grid;
+        /* height: 90px; */
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
     }
 
 }

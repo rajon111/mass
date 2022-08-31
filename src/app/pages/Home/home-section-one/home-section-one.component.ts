@@ -1,5 +1,4 @@
-import { Component, OnInit, ViewChild  } from '@angular/core';
-import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+import { Component, OnInit  } from '@angular/core';
 
 
 @Component({
@@ -8,39 +7,32 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
   styleUrls: ['./home-section-one.component.css']
 })
 export class HomeSectionOneComponent implements OnInit {
-  images = [62, 83, 466, 965, 982, 1043, 738].map((n) => `https://picsum.photos/id/${n}/1300/500`);
 
-  paused = false;
-  unpauseOnArrow = false;
-  pauseOnIndicator = false;
-  pauseOnHover = true;
-  pauseOnFocus = true;
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  @ViewChild('carousel', { static: true })
-  carousel!: NgbCarousel;
-
-  togglePaused() {
-    if (this.paused) {
-      this.carousel.cycle();
-    } else {
-      this.carousel.pause();
-    }
-    this.paused = !this.paused;
-  }
-
-  onSlide(slideEvent: NgbSlideEvent) {
-    if (this.unpauseOnArrow && slideEvent.paused &&
-      (slideEvent.source === NgbSlideEventSource.ARROW_LEFT || slideEvent.source === NgbSlideEventSource.ARROW_RIGHT)) {
-      this.togglePaused();
-    }
-    if (this.pauseOnIndicator && !slideEvent.paused && slideEvent.source === NgbSlideEventSource.INDICATOR) {
-      this.togglePaused();
-    }
-  }
-
-
+  imageObject = [{
+    image: 'https://massdataltd.com/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-14-at-2.58.08-PM.jpeg',
+    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-14-at-2.58.08-PM.jpeg',
+    title: 'Hummingbirds are amazing creatures'
+}, {
+    image: 'https://massdataltd.com/wp-content/uploads/2021/07/CIGL-Canada.jpg',
+    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/CIGL-Canada.jpg'
+}, {
+    image: 'https://massdataltd.com/wp-content/uploads/2021/07/Deboniar-Group.jpg',
+    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/Deboniar-Group.jpg',
+    title: 'Example with title.'
+},{
+    image: 'https://massdataltd.com/wp-content/uploads/2021/07/Express-Associate.jpg',
+    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/Express-Associate.jpg',
+    title: 'Hummingbirds are amazing creatures'
+}, {
+    image: 'https://massdataltd.com/wp-content/uploads/2021/07/ju_logo.jpg',
+    thumbImage: 'https://massdataltd.com/wp-content/uploads/2021/07/ju_logo.jpg'
+}, {
+    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
+    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
+    title: 'Example two with title.'
+}];
 }
