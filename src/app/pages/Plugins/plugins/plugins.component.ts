@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-plugins',
   templateUrl: './plugins.component.html',
@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PluginsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
+    this.serviceTitle.setTitle('Plugins')
   }
 
 }

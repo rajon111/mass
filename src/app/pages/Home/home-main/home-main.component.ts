@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MoveDirection, ClickMode, HoverMode, OutMode, Engine, Container } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home-main',
@@ -9,15 +10,16 @@ import { loadFull } from "tsparticles";
 })
 export class HomeMainComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
+   
   }
 
   id = "tsparticles";
 
   /* Starting from 1.19.0 you can use a remote url (AJAX request) to a JSON with the configuration */
-  particlesUrl = "http://foo.bar/particles.json";
+  // particlesUrl = "http://foo.bar/particles.json";
 
   /* or the classic JavaScript object */
   particlesOptions = {

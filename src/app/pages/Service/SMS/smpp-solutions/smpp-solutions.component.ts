@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-smpp-solutions',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SmppSolutionsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
+    this.serviceTitle.setTitle('Smpp solutions')
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-masking-sms-bd',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MaskingSmsBdComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
+    this.serviceTitle.setTitle('Masking Sms Bd')
   }
 
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-refund-and-return-policy',
   templateUrl: './refund-and-return-policy.component.html',
@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RefundAndReturnPolicyComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
+    this.serviceTitle.setTitle('Refund And Return Policy')
   }
 
 }

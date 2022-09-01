@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-sanitary-management-system',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SanitaryManagementSystemComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
+    this.serviceTitle.setTitle('Sanitary-management-system')
   }
 
 }
