@@ -19,3 +19,12 @@
     text-decoration: none;
     color: #bcba63;
 }
+
+.tab{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    
+}
+a{
+    padding: 0 45px;
+}

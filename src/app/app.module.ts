@@ -37,6 +37,18 @@ import { OtpComponent } from './pages/Service/SMS/otp/otp.component';
 import { PromotionalSmsComponent } from './pages/Service/SMS/promotional-sms/promotional-sms.component';
 import { SmppSolutionsComponent } from './pages/Service/SMS/smpp-solutions/smpp-solutions.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { FinanceManagementSystemComponent } from './pages/Solutions/finance-management-system/finance-management-system.component';
+import { SupplyChainManagementBdComponent } from './pages/Solutions/supply-chain-management-bd/supply-chain-management-bd.component';
+import { SalesAndDistributionManagementComponent } from './pages/Solutions/sales-and-distribution-management/sales-and-distribution-management.component';
+import { SdmComponent } from './pages/Solutions/supply-chain-management-bd/sdm/sdm.component';
+import { HcmComponent } from './pages/Solutions/supply-chain-management-bd/hcm/hcm.component';
+import { PpcComponent } from './pages/Solutions/supply-chain-management-bd/ppc/ppc.component';
+import { PrdComponent } from './pages/Solutions/supply-chain-management-bd/prd/prd.component';
+import { CrmComponent } from './pages/Solutions/supply-chain-management-bd/crm/crm.component';
+import { AdmComponent } from './pages/Solutions/supply-chain-management-bd/adm/adm.component';
+import { PsComponent } from './pages/Solutions/supply-chain-management-bd/ps/ps.component';
+import { CscComponent } from './pages/Solutions/supply-chain-management-bd/csc/csc.component';
+
 
 @NgModule({
   declarations: [
@@ -68,7 +80,18 @@ import { NgImageSliderModule } from 'ng-image-slider';
     NonMaskingSmsComponent,
     OtpComponent,
     PromotionalSmsComponent,
-    SmppSolutionsComponent
+    SmppSolutionsComponent,
+    FinanceManagementSystemComponent,
+    SupplyChainManagementBdComponent,
+    SalesAndDistributionManagementComponent,
+    SdmComponent,
+    HcmComponent,
+    PpcComponent,
+    PrdComponent,
+    CrmComponent,
+    AdmComponent,
+    PsComponent,
+    CscComponent
   ],
   imports: [
     BrowserModule,

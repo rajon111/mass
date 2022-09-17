@@ -1,0 +1,9 @@
+.tab{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    
+}
+a{
+    padding: 0 45px;
+}
