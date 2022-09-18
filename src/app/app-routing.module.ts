@@ -35,6 +35,7 @@ import { CrmComponent } from './pages/Solutions/supply-chain-management-bd/crm/c
 import { AdmComponent } from './pages/Solutions/supply-chain-management-bd/adm/adm.component';
 import { PsComponent } from './pages/Solutions/supply-chain-management-bd/ps/ps.component';
 import { CscComponent } from './pages/Solutions/supply-chain-management-bd/csc/csc.component';
+import { NotFoundComponent } from './pages/NotFound/not-found/not-found.component';
 
 
 const routes: Routes = [
@@ -74,6 +75,8 @@ const routes: Routes = [
   {path:"project-system", component:PsComponent},
   {path:"core-system-components", component:CscComponent},
   {path:"office-administration-management", component:AdmComponent},
+  {path: '404', component: NotFoundComponent},
+  {path: '**', redirectTo: '/404'}
   
 ];
 
