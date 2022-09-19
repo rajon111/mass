@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {APP_BASE_HREF} from '@angular/common';
 
 import { FormsModule } from '@angular/forms';
 
@@ -49,6 +50,7 @@ import { AdmComponent } from './pages/Solutions/supply-chain-management-bd/adm/a
 import { PsComponent } from './pages/Solutions/supply-chain-management-bd/ps/ps.component';
 import { CscComponent } from './pages/Solutions/supply-chain-management-bd/csc/csc.component';
 import { NotFoundComponent } from './pages/NotFound/not-found/not-found.component';
+
 
 
 @NgModule({
@@ -103,7 +105,7 @@ import { NotFoundComponent } from './pages/NotFound/not-found/not-found.componen
     NgParticlesModule ,
     NgImageSliderModule
   ],
-  providers: [],
+  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
