@@ -36,6 +36,17 @@ import { AdmComponent } from './pages/Solutions/supply-chain-management-bd/adm/a
 import { PsComponent } from './pages/Solutions/supply-chain-management-bd/ps/ps.component';
 import { CscComponent } from './pages/Solutions/supply-chain-management-bd/csc/csc.component';
 import { NotFoundComponent } from './pages/NotFound/not-found/not-found.component';
+import { ResourceComponent } from './pages/Resource/resource/resource.component';
+import { AnnualTourComponent } from './pages/Resource/annual-tour/annual-tour.component';
+import { FastestWebHostingComponent } from './pages/Resource/fastest-web-hosting/fastest-web-hosting.component';
+import { PromotionalComponent } from './pages/Resource/promotional/promotional.component';
+import { SmsMarketingWhatComponent } from './pages/Resource/sms-marketing-what/sms-marketing-what.component';
+import { MaskingSmsPriceInBangladeshComponent } from './pages/Resource/masking-sms-price-in-bangladesh/masking-sms-price-in-bangladesh.component';
+import { WhatIsAnSmppGatewayComponent } from './pages/Resource/what-is-an-smpp-gateway/what-is-an-smpp-gateway.component';
+import { AuthorAdminComponent } from './pages/Resource/author-admin/author-admin.component';
+import { UncategorizedComponent } from './pages/Resource/uncategorized/uncategorized.component';
+import { CatoguryHostingComponent } from './pages/Resource/catogury-hosting/catogury-hosting.component';
+import { CategorySmsComponent } from './pages/Resource/category-sms/category-sms.component';
 
 
 const routes: Routes = [
@@ -71,6 +82,18 @@ const routes: Routes = [
  
   {path:"productivity-management", component:PrdComponent},
   {path:"customer-relationship-management", component:CrmComponent},
+  {path:"resources", component:ResourceComponent},
+  {path:"mass-data-limited-annual-tour", component:AnnualTourComponent},
+  {path:"fastest-web-hosting-companies-in-bangladesh", component:FastestWebHostingComponent},
+  {path:"promotional-sms", component:PromotionalComponent},
+  {path:"what-is-sms-marketing", component:SmsMarketingWhatComponent},
+  {path:"masking-sms-price-in-bangladesh", component:MaskingSmsPriceInBangladeshComponent},
+  {path:"what-is-an-smpp-gateway", component:WhatIsAnSmppGatewayComponent},
+  {path:"what-is-an-smpp-gateway/#respond", component:WhatIsAnSmppGatewayComponent},
+  {path:"author/admin", component:AuthorAdminComponent},
+  {path:"category/uncategorized", component:UncategorizedComponent},
+  {path:"category/hosting", component:CatoguryHostingComponent},
+  {path:"category/sms", component:CategorySmsComponent},
   
   {path:"project-system", component:PsComponent},
   {path:"core-system-components", component:CscComponent},

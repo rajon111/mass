@@ -1,0 +1,15 @@
+.promo{
+    margin-top: 120px;
+    background-color: #F5F5F5;
+}
+.link-color{
+    color: green;
+    cursor: pointer;
+ }
+ a{
+    text-decoration: none;
+ }
+
+ .v-div{
+    width: 100% !important;
+ }

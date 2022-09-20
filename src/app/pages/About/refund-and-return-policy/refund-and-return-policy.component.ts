@@ -10,7 +10,7 @@ export class RefundAndReturnPolicyComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Refund And Return Policy')
+    this.serviceTitle.setTitle('Refund And Return Policy | Mass Data Ltd')
   }
 
 }

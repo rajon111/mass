@@ -10,7 +10,7 @@ export class PluginsComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Plugins')
+    this.serviceTitle.setTitle('Our Plugins | Mass Data Ltd')
   }
 
 }

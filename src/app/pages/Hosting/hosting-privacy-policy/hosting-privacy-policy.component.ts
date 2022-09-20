@@ -11,7 +11,7 @@ export class HostingPrivacyPolicyComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Hosting-privacy-policy')
+    this.serviceTitle.setTitle('Hosting Privacy Policy | Mass Data Ltd')
   }
 
 }

@@ -11,7 +11,7 @@ export class SeoComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('SEO-Search Engine Opt.')
+    this.serviceTitle.setTitle('SEO Service And SMM Service Provider At Best Rate- SEO Service Provider In BD- 2016-2021 | Mass Data Ltd')
   }
 
 }

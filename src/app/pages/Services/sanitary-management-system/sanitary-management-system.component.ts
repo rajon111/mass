@@ -11,7 +11,7 @@ export class SanitaryManagementSystemComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Sanitary-management-system')
+    this.serviceTitle.setTitle('Best Sanitary Management System Provider | 2016-2021 | Mass Data Ltd')
   }
 
 }

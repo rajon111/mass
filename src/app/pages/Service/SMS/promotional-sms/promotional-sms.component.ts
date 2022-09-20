@@ -11,7 +11,7 @@ export class PromotionalSmsComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Promotional Sms')
+    this.serviceTitle.setTitle('Promotional SMS For Best Rate - Promotional SMS In BD- 2016-2022 | Mass Data Ltd')
   }
 
 }

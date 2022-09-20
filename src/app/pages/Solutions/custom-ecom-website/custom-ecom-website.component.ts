@@ -11,7 +11,7 @@ export class CustomEcomWebsiteComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Custom Ecommerce Website')
+    this.serviceTitle.setTitle('Custom Ecommerce Website | Mass Data Ltd')
   }
 
 }

@@ -11,7 +11,7 @@ export class AboutMassDataComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('About Mass Data')
+    this.serviceTitle.setTitle('About US | Mass Data Ltd')
   }
 
 }

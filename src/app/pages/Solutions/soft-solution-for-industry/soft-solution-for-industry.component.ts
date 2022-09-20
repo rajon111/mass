@@ -11,7 +11,7 @@ export class SoftSolutionForIndustryComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Soft-solution-for-industry')
+    this.serviceTitle.setTitle('Best Software Solution For Industry In 2021 | Mass Data Ltd')
   }
 
 }

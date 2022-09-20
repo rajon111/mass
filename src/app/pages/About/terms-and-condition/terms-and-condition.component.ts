@@ -11,7 +11,7 @@ export class TermsAndConditionComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Terms And Conditions')
+    this.serviceTitle.setTitle('Terms & Conditions | Mass Data Ltd')
   }
 
 }

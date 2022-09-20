@@ -11,7 +11,7 @@ export class PrivacyPolicyComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Privacy Policy')
+    this.serviceTitle.setTitle('Privacy Policy | Mass Data Ltd')
   }
 
 }

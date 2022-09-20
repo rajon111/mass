@@ -11,7 +11,7 @@ export class ContactUsComponent implements OnInit {
   constructor(private titleService:Title) { }
 
   ngOnInit(): void {
-    this.titleService.setTitle('Contact-us')
+    this.titleService.setTitle('Contact | Mass Data Ltd')
   }
 
 }

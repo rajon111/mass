@@ -12,7 +12,7 @@ export class HomeSectionOneComponent implements OnInit {
     constructor(private serviceTitle: Title) { }
 
     ngOnInit(): void {
-        this.serviceTitle.setTitle('Mass Data')
+        this.serviceTitle.setTitle('Mass Data Ltd - At Best Price Domain And Cheap Shared , Reseller, VPS, Cloud And Dedicated Server Hosting And Bulk SMS Solution Provider In Bangladesh.')
     }
     imageObject = [{
         image: '../../../../assets/clients/106504737_581442352540048_2298773867032566013_n.jpg',

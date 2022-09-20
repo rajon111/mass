@@ -50,6 +50,17 @@ import { AdmComponent } from './pages/Solutions/supply-chain-management-bd/adm/a
 import { PsComponent } from './pages/Solutions/supply-chain-management-bd/ps/ps.component';
 import { CscComponent } from './pages/Solutions/supply-chain-management-bd/csc/csc.component';
 import { NotFoundComponent } from './pages/NotFound/not-found/not-found.component';
+import { ResourceComponent } from './pages/Resource/resource/resource.component';
+import { AnnualTourComponent } from './pages/Resource/annual-tour/annual-tour.component';
+import { FastestWebHostingComponent } from './pages/Resource/fastest-web-hosting/fastest-web-hosting.component';
+import { PromotionalComponent } from './pages/Resource/promotional/promotional.component';
+import { SmsMarketingWhatComponent } from './pages/Resource/sms-marketing-what/sms-marketing-what.component';
+import { MaskingSmsPriceInBangladeshComponent } from './pages/Resource/masking-sms-price-in-bangladesh/masking-sms-price-in-bangladesh.component';
+import { WhatIsAnSmppGatewayComponent } from './pages/Resource/what-is-an-smpp-gateway/what-is-an-smpp-gateway.component';
+import { AuthorAdminComponent } from './pages/Resource/author-admin/author-admin.component';
+import { UncategorizedComponent } from './pages/Resource/uncategorized/uncategorized.component';
+import { CatoguryHostingComponent } from './pages/Resource/catogury-hosting/catogury-hosting.component';
+import { CategorySmsComponent } from './pages/Resource/category-sms/category-sms.component';
 
 
 
@@ -95,7 +106,18 @@ import { NotFoundComponent } from './pages/NotFound/not-found/not-found.componen
     AdmComponent,
     PsComponent,
     CscComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ResourceComponent,
+    AnnualTourComponent,
+    FastestWebHostingComponent,
+    PromotionalComponent,
+    SmsMarketingWhatComponent,
+    MaskingSmsPriceInBangladeshComponent,
+    WhatIsAnSmppGatewayComponent,
+    AuthorAdminComponent,
+    UncategorizedComponent,
+    CatoguryHostingComponent,
+    CategorySmsComponent
   ],
   imports: [
     BrowserModule,

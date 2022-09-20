@@ -11,7 +11,7 @@ export class UsaResellerHstingComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('USA Reseller Hosting')
+    this.serviceTitle.setTitle('Reseller Hosting Provider In Best Rate - USA Reseller Hosting In BD-2016-2021 | Mass Data Ltd')
   }
 
 }

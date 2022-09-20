@@ -11,7 +11,7 @@ export class OtpComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('OTP(One Time Pass/Pin)')
+    this.serviceTitle.setTitle('OTP SMS Service At Best Rate - OTP Provider In BD- 2016-2022 | Mass Data Ltd')
   }
 
 }

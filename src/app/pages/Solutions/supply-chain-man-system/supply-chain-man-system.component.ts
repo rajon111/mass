@@ -11,7 +11,7 @@ export class SupplyChainManSystemComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Supply Chain Management System')
+    this.serviceTitle.setTitle('Supply Chain Management System In 22 | Mass Data Ltd')
   }
 
 }

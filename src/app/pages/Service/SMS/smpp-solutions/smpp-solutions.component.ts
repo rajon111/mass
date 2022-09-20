@@ -12,7 +12,7 @@ export class SmppSolutionsComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Smpp solutions')
+    this.serviceTitle.setTitle('Best SMPP Gateway Provider In BD- 2016-2022 | Mass Data Ltd')
   }
 
 }

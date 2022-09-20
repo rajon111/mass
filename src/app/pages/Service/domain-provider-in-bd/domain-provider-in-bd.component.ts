@@ -11,7 +11,7 @@ export class DomainProviderInBdComponent implements OnInit {
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
-    this.serviceTitle.setTitle('Domain-provider-in-bd')
+    this.serviceTitle.setTitle('Domain Provider In Best Rate - Domain Provider In BD - 2016-2021 | Mass Data Ltd')
   }
 
 }
