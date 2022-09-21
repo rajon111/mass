@@ -8,12 +8,16 @@ import { Title } from '@angular/platform-browser';
 })
 export class SupplyChainManSystemComponent implements OnInit {
 
-  check:any;
+  check = 'fcm';
 
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {
     this.serviceTitle.setTitle('Supply Chain Management System In 22 | Mass Data Ltd')
+  }
+
+  checkCon(data:any){
+    this.check = data;
   }
 
 }

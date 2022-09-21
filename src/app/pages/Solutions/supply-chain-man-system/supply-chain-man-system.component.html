@@ -51,16 +51,16 @@
             <div class="tab">
                 <div>
                     
-                    <a class="btn btn-success" routerLink="/financial-management-system" routerLinkActive="active">FSM</a>
+                    <a class="btn btn-success" (click)="checkCon('fcm')"  routerLinkActive="active">FSM</a>
                 </div>
                 <div>
-                    <a class="btn btn-success" routerLink="/supplyChain-management-system-bd">SCM</a> 
+                    <a class="btn btn-success" (click)="checkCon('scm')">SCM</a> 
                 </div>
                 <div>
-                    <a class="btn btn-success" routerLink="/sales-and-distribution-management">SDM</a> 
+                    <a class="btn btn-success" (click)="checkCon('sdm')">SDM</a> 
                 </div>
                 <div>
-                    <a class="btn btn-success" routerLink="/human-capital-management">HCM</a>
+                    <a class="btn btn-success" (click)="checkCon('hcm')">HCM</a>
                  </div>
                 <div>
                     <a class="btn btn-success" routerLink="/production-Planning-and-Control">PPC</a> 
@@ -82,43 +82,26 @@
                 </div>
             </div>
 
-            <!-- <div >
-                <div class="p-3">
-                 
-        
-                        <h2 class="text-center"><b>Financial Management System</b></h2>
-                    
-                </div>
-                <div class="text-white">
-                    <div style="background-color: #13458E;" class="p-5">
-                        <h3 class="text-white">Solve all the financial challenges of your business with Massdata Ltd.</h3>
-                        <p class="text-white">Scalable Business Growth</p>
-        
-                        <p class="text-white">Proper accounting solution assurance and gives accurate financial information related to all the
-                            Financial stuff and can even handle huge amounts of financial transactions easily to make a well
-                            aligned business growth for any type of industry. </p>
-                        <p>Key Features: </p>
-                        <li>
-                            Finacial Accounting
-                        </li>
-                        <li>Cost Center</li>
-                        <li>Treasury</li>
-                        <li>Enterprise Asset</li>
-                        <li>Budgeting</li>
-                        <li>Multi Currency</li>
-                        <li>Commercial</li>
-                        <li>Loan</li>
-                        <li>Recipt Books</li>
-                        <li>Bill Claim</li>
-                        <li>Card receipt</li>
-                        <li>Cheque Books</li>
-                        
-                    </div>
-                </div>
-            </div> -->
-            <ng-container *ngIf="">
-                
+           
+            <ng-container *ngIf="check == 'fcm'">
+                <app-finance-management-system></app-finance-management-system>
             </ng-container>
+
+            <ng-container *ngIf="check == 'scm'">
+                <app-supply-chain-management-bd></app-supply-chain-management-bd>
+            </ng-container>
+
+            <ng-container *ngIf="check == 'scm'">
+                <app-supply-chain-management-bd></app-supply-chain-management-bd>
+            </ng-container>
+
+            <ng-container *ngIf="check == 'sdm'">
+                <app-sdm></app-sdm>
+            </ng-container>
+            <ng-container *ngIf="check == 'hcm'">
+                <app-hcm></app-hcm>
+            </ng-container>
+
         </div>
     </div>
 </section>
