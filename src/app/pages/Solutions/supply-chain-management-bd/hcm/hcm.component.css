@@ -7,3 +7,6 @@
 a{
     padding: 0 45px;
 }
+a:hover{
+    background: black;
+}

@@ -21,10 +21,14 @@
 }
 
 .tab{
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
     
 }
 a{
     padding: 0 45px;
+}
+a:hover{
+    background: black;
 }

@@ -44,3 +44,8 @@
     color: #22a9e2;
     text-decoration: none;
 }
+@media only screen and (max-width: 800px){
+    .immm img{
+        max-width: 100%;
+    }
+}

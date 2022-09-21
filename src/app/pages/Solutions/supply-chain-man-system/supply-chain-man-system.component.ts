@@ -8,6 +8,8 @@ import { Title } from '@angular/platform-browser';
 })
 export class SupplyChainManSystemComponent implements OnInit {
 
+  check:any;
+
   constructor(private serviceTitle:Title) { }
 
   ngOnInit(): void {

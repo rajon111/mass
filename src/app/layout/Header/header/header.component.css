@@ -38,7 +38,7 @@
 }
 .navbar ul li a{
     font-size: 20px;
-    padding: 10px;
+    padding: 9px;
     color: #333;
     display: block;
 }
@@ -61,7 +61,7 @@
 }
 
 .navbar ul li ul li ul{
-    left: 350px;
+    left: 360px;
     top: 0;
 }
 
@@ -69,6 +69,7 @@
 .navbar ul li:hover > ul{
     display: initial;
 }
+
 
 #menu-bar{
     display: none;
