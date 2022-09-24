@@ -18,6 +18,12 @@
 .link-class{
     text-decoration: none;
     color: #bcba63;
+    padding: 0 !important;
+    background-color: none !important;
+    cursor: pointer;
+}
+.try{
+    background-color: red !important;
 }
 
 .tab{

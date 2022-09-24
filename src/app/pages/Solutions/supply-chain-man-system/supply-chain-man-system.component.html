@@ -40,27 +40,26 @@
 <section class="container">
     <div>
         <h2 class="text-center m-5">Check Our Solutions You May Look For</h2>
-        <p class="text-center">Massdata Ltd. has versatile core business modules which are capable to manned & manage administrative managerial business propositions entirely & centrally.</p>
+        <p class="text-center"><strong>Massdata Ltd.</strong> has versatile core business modules which are capable to manned & manage administrative managerial business propositions entirely & centrally.</p>
+        
         <div class="text-center">
             <img src="../../../../assets/istp30_62.gif" width="100px" alt="">
         </div>
 
 
         <div >
-           
             <div class="tab">
                 <div>
-                    
-                    <a class="btn btn-success" (click)="checkCon('fcm')"  routerLinkActive="active">FSM</a>
+                    <a class="btn btn-success " routerLink="/financial-management-system" routerLinkActive="active">FSM</a>
                 </div>
                 <div>
-                    <a class="btn btn-success" (click)="checkCon('scm')">SCM</a> 
+                    <a class="btn btn-success" routerLink="/supplyChain-management-system-bd">SCM</a> 
                 </div>
                 <div>
-                    <a class="btn btn-success" (click)="checkCon('sdm')">SDM</a> 
+                    <a class="btn btn-success" routerLink="/sales-and-distribution-management">SDM</a> 
                 </div>
                 <div>
-                    <a class="btn btn-success" (click)="checkCon('hcm')">HCM</a>
+                    <a class="btn btn-success" routerLink="/human-capital-management">HCM</a>
                  </div>
                 <div>
                     <a class="btn btn-success" routerLink="/production-Planning-and-Control">PPC</a> 
@@ -81,27 +80,6 @@
                     <a class="btn btn-success" routerLink="/core-system-components">CSC</a> 
                 </div>
             </div>
-
-           
-            <ng-container *ngIf="check == 'fcm'">
-                <app-finance-management-system></app-finance-management-system>
-            </ng-container>
-
-            <ng-container *ngIf="check == 'scm'">
-                <app-supply-chain-management-bd></app-supply-chain-management-bd>
-            </ng-container>
-
-            <ng-container *ngIf="check == 'scm'">
-                <app-supply-chain-management-bd></app-supply-chain-management-bd>
-            </ng-container>
-
-            <ng-container *ngIf="check == 'sdm'">
-                <app-sdm></app-sdm>
-            </ng-container>
-            <ng-container *ngIf="check == 'hcm'">
-                <app-hcm></app-hcm>
-            </ng-container>
-
         </div>
     </div>
 </section>
@@ -109,7 +87,7 @@
 
 <div>
     <h2 class="text-center m-5">What is supply chain management software ?</h2>
-    <div class="m-5 ">
+    <div class="container">
         <p >
             Supply chain management software aids in the automation of raw material movement from collection through
             manufacture and distribution. Organization-wide order processing, transportation, and warehouse management
@@ -180,7 +158,7 @@
 <div>
     <h2 class="text-center m-5">The benefit of Supply chain management system software in BD</h2>
 
-    <div class="containe m-5">
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-sm-12">
                 <p><strong>1. EFFICIENT PARTS MANAGEMENT:</strong> Supply chain software simplifies the tracking and
@@ -225,7 +203,7 @@
                     Synchronous data can boost communication between divisions, teamwork, and the level of trust your
                     loyal clients have in you.
                 </p>
-                <p>Also check our other <a class="link-class" href="" routerLink="/smpp-gateway-provider-in-bd">service</a></p>
+                <p>Also check our other <span class="link-class" routerLink="/smpp-gateway-provider-in-bd">service</span></p>
             </div>
             <div class="col-lg-4 col-sm-12">
                 <div class="img-divv">

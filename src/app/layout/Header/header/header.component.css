@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
 }
+
 .header{
     position: fixed;
     top: 0;
@@ -76,12 +77,16 @@
 }
 
 label{
-    font-size: 20px;
+    font-size: 18px;
     color: #333;
     cursor: pointer;
     display: none;
 }
 
+.sss{
+    font-size: 15px;
+    font-weight: 500;
+}
 
 @media(max-width:991px){
     /* .header{

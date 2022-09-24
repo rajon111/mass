@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {APP_BASE_HREF} from '@angular/common';
+import { LocationStrategy, PathLocationStrategy, APP_BASE_HREF } from '@angular/common';
 
 import { FormsModule } from '@angular/forms';
 
@@ -61,6 +61,7 @@ import { AuthorAdminComponent } from './pages/Resource/author-admin/author-admin
 import { UncategorizedComponent } from './pages/Resource/uncategorized/uncategorized.component';
 import { CatoguryHostingComponent } from './pages/Resource/catogury-hosting/catogury-hosting.component';
 import { CategorySmsComponent } from './pages/Resource/category-sms/category-sms.component';
+import { Events } from 'tsparticles-engine';
 
 
 
@@ -127,7 +128,9 @@ import { CategorySmsComponent } from './pages/Resource/category-sms/category-sms
     NgParticlesModule ,
     NgImageSliderModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
+  providers: [
+    { provide: LocationStrategy, useClass: PathLocationStrategy }
+ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
