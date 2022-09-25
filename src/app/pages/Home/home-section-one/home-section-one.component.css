@@ -63,13 +63,17 @@
     }
     .section-2{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 2rem;
     }
 }
 @media only screen and (max-width: 1200px){
     .box-width{
-        width: 14rem !important;
+        width: 13rem !important;
+    }
+    .services-next {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
@@ -114,7 +118,7 @@
     }
     .services-next {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
